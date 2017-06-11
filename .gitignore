@@ -5,3 +5,6 @@ out
 npm-debug.log
 *.css
 *.css.map
+extension.pem
+extension.zip
+extension.crx
