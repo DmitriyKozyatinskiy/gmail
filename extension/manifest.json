@@ -1,0 +1,23 @@
+{
+  "name": "OnePlace",
+  "version": "1.0",
+  "description": "OnePlace",
+  "externally_connectable": {
+    "matches": ["https://mail.google.com/*", "https://calendar.google.com/*", "https://www.google.com/contacts/*"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*", "https://www.google.com/contacts/*", "https://calendar.google.com/*"],
+      "js": ["index.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    "libs/jquery.js",
+    "libs/gmail.js",
+    "bundle.js",
+    "../fonts/*",
+    "*.ttf"
+  ],
+  "manifest_version": 2
+}

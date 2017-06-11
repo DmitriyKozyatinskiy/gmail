@@ -1,0 +1,25 @@
+.Sidebar__Menu {
+    border-top: 1px solid #BCBCBC;
+}
+
+.Sidebar__MenuItem {
+    height: 25px;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.Sidebar__MenuItem--Selected {
+    background-color: #37BBFE;
+}
+
+
+.Sidebar__MenuIcon {
+    font-size: 30px;
+    vertical-align: top;
+    color: #00A2DB;
+}
+
+.Sidebar__MenuText {
+    display: inline-block;
+    padding-top: 3px;
+}

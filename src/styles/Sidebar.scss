@@ -1,0 +1,195 @@
+.hidden {
+    display: none !important;
+}
+
+.Sidebar {
+    width: 400px;
+    border: 1px solid #02A2DE;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.Sidebar__Header {
+    position: relative;
+    padding: 3px;
+    border-bottom: 1px solid #90CEE5;
+    background-color: #B8CFE7;
+    color: #199BC5;
+}
+
+.Sidebar__HeaderText {
+    font-size: 13px;
+}
+
+.Sidebar__HeaderControls {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 7px;
+    color: black;
+}
+
+.Sidebar__HeaderControls span {
+    cursor: pointer;
+}
+
+.Sidebar__DownArrow {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.Sidebar__TopText {
+    padding: 5px 0 5px 14px;
+}
+
+.Sidebar__Body {
+    width: 100%;
+    background-color: white;
+}
+
+.Sidebar__Panel {
+    width: 95%;
+    margin: 5px auto 10px auto;
+    padding: 2px;
+    font-size: 13px;
+    color: white;
+    background-color: #199BC5;
+}
+
+.Sidebar__Info {
+    padding: 0 25px;
+}
+
+.Sidebar__Info--Opportunities, .Sidebar__Info--Interactions {
+    overflow-y: auto;
+    border: 1px solid #BCBCBC;
+    border-right: none;
+    border-left: none;
+}
+
+.Sidebar__Info--Opportunities {
+    max-height: 250px;
+}
+
+.Sidebar__Info--Interactions {
+    max-height: 600px;
+}
+
+.Sidebar__Opportunity, .Sidebar__Interaction {
+    position: relative;
+    padding: 0 25px;
+}
+
+.Sidebar__Opportunity:not(:first-of-type), .Sidebar__Interaction:not(:first-of-type) {
+    border-top: 1px solid #BCBCBC;
+}
+
+.Sidebar__OpportunityInfo {
+    float: left;
+}
+
+.Sidebar__OpportunityHeader {
+    margin: 5px 0;
+}
+
+.Sidebar__OpportunityDiagram {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+}
+
+.Sidebar__OpportunityDiagram strong {
+
+}
+
+.Sidebar__OpportunityDescription,
+.Sidebar__OpportunityName,
+.Sidebar__OpportunityCloseDate {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+
+.Sidebar__Info--Left {
+    float: left;
+}
+
+.Sidebar__Buttons {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 25px;
+}
+
+.Sidebar__Button:not(:last-of-type) {
+    margin-right: 5px;
+}
+
+.Sidebar__Buttons .glyphicon-cloud {
+    vertical-align: middle;
+}
+
+.Sidebar__Button {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Sidebar__Button--Cloud {
+    color: #00A2DB;
+}
+
+.Sidebar__Name {
+    margin: 5px 0;
+}
+
+.Sidebar__Company {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.Sidebar_Phone {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.Sidebar_Email {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.Sidebar__Url {
+    font-size: 12px;
+    text-decoration: none;
+    color: #75786F;
+}
+
+.Sidebar__Select {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 5px;
+    background-color: #E6E6E6;
+    color: #656473;
+}
+
+.Sidebar__UserImage {
+    width: 100px;
+    height: 100px;
+    float: right;
+    padding-right: 25px;
+}
+
+.Sidebar__CheckboxContainer {
+    display: inline;
+    float: right;
+    margin: 5px 55px 0 0;
+    font-size: 12px;
+}
+
+.Sidebar__CheckboxContainer label {
+    vertical-align: top;
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
